@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Besi Super",
+    "price": 4600
+  },
+  {
+    "id": 2,
+    "name": "Besi Stal",
+    "price": 3000
+  },
+  {
+    "id": 3,
+    "name": "Kaleng",
+    "price": 2000
+  },
+  {
+    "id": 4,
+    "name": "Seng",
+    "price": 1000
+  },
+  {
+    "id": 5,
+    "name": "Koran",
+    "price": 7000
+  },
+  {
+    "id": 6,
+    "name": "Kertas Putih",
+    "price": 1500
+  },
+  {
+    "id": 7,
+    "name": "Kardus",
+    "price": 2000
+  },
+  {
+    "id": 8,
+    "name": "Buku Campur",
+    "price": 1000
+  },
+  {
+    "id": 9,
+    "name": "Kertas Buram",
+    "price": 900
+  },
+  {
+    "id": 10,
+    "name": "Duplex/Mix",
+    "price": 800
+  },
+  {
+    "id": 11,
+    "name": "Aqua Gelas",
+    "price": 2000
+  },
+  {
+    "id": 12,
+    "name": "Kaca/Beling",
+    "price": 500
+  }
+]
