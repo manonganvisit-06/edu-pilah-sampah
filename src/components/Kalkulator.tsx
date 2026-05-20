@@ -59,7 +59,7 @@ export default function Kalkulator() {
         <div className="overflow-x-auto">
           <table className="w-full border border-gray-300 bg-gray-50">
             
-            <thead className="bg-green-600 text-gray-50">
+            <thead className="bg-green-600 text-gray-50 dark:bg-green-700">
               <tr>
                 <th className="p-3 text-left">
                   Jenis Sampah
@@ -141,13 +141,13 @@ export default function Kalkulator() {
 
         {/* Total */}
         <div className="mt-6 flex justify-end">
-          <div className="bg-green-100 p-4 rounded-xl">
+          <div className="bg-green-100 dark:bg-green-900 p-4 rounded-xl">
             
-            <p className="text-lg text-slate-900">
+            <p className="text-lg text-slate-900 dark:text-gray-200">
               Total Harga
             </p>
 
-            <h2 className="text-3xl font-bold text-green-700">
+            <h2 className="text-3xl font-bold text-green-700 dark:text-green-200">
               Rp
               {formatRupiah(totalPrice)}
             </h2>

@@ -31,7 +31,7 @@ export default function AppNavbar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         
         {/* Logo */}
-        <a href="/" className="text-2xl font-bold text-green-600">
+        <a href="/" className="text-2xl font-bold text-green-600 dark:text-green-700">
           Pilah Sampah
         </a>
 
@@ -59,7 +59,7 @@ export default function AppNavbar() {
         <div className="flex items-center gap-3 md:order-2">
           <a
             href="/kalkulator"
-            className="text-gray-50 bg-green-600 hover:bg-green-700 px-3 py-2 rounded text-sm"
+            className="text-gray-50 bg-green-600 dark:bg-green-700 hover:bg-green-700 dark:hover:bg-green-800 px-3 py-2 rounded text-sm"
           >
             Kalkulator
           </a>
@@ -67,7 +67,7 @@ export default function AppNavbar() {
           {/* Toggle Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 w-10 h-10 flex items-center justify-center dark:text-gray-50"
+            className="md:hidden p-2 w-10 h-10 flex items-center justify-center text-slate-900 dark:text-gray-50"
           >
             ☰
           </button>
