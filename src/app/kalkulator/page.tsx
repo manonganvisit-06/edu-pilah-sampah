@@ -8,7 +8,11 @@ export const metadata: Metadata = {
   description: "Kalkulator hitung harga sampah per kilo",
 };
 
-export default function Calculator() {
+export default async function Calculator() {
+  await new Promise((resolve) =>
+    setTimeout(resolve, 500)
+  );
+
   return (
     <>
         <Navbar />

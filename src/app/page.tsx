@@ -8,7 +8,11 @@ import Tentang from "@/components/Tentang";
 import Footer from "@/components/Footer";
 import FloatButton from "@/components/FloatButton";
 
-export default function Home() {
+export default async function Home() {
+  await new Promise((resolve) =>
+    setTimeout(resolve, 500)
+  );
+
   return (
     <>
       <Navbar />
