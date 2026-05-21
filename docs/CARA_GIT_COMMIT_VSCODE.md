@@ -53,15 +53,7 @@ Contoh:
 
 Di sidebar kiri VS Code, klik ikon:
 
-```txt
-Source Control
-```
-
-Ikonnya berbentuk:
-
-```txt
-Cabang Git
-```
+![Source control](https://i.imgur.com/VbeTWWV.png)
 
 atau tekan shortcut:
 
@@ -83,10 +75,7 @@ akan muncul daftar file yang berubah.
 
 Contoh:
 
-```txt
-src/data/info.js
-README.md
-```
+![](https://i.imgur.com/qP1CGwJ.png)
 
 ---
 
@@ -100,13 +89,18 @@ Klik tombol:
 
 di samping nama file.
 
-Atau klik:
+![](https://i.imgur.com/DCA8XKa.png)
+
+Atau blok semua file, klik kanan dan klik:
 
 ```txt
-Stage All Changes
+Stage Changes
 ```
+![](https://i.imgur.com/YMursN6.png)
 
 untuk menambahkan semua file sekaligus.
+
+
 
 Jika berhasil, file akan pindah ke bagian:
 
@@ -118,7 +112,9 @@ Staged Changes
 
 ## 5. Menulis Commit Message
 
-Pada kotak pesan bagian atas, tuliskan deskripsi perubahan.
+Pada kolom pesan bagian atas, tuliskan deskripsi perubahan.
+
+![](https://i.imgur.com/6V1GT3U.png)
 
 Contoh:
 
@@ -142,11 +138,7 @@ Klik tombol:
 Commit
 ```
 
-atau ikon:
-
-```txt
-✔
-```
+![](https://i.imgur.com/TK0LX51.png)
 
 Jika berhasil, perubahan akan tersimpan ke Git lokal.
 
@@ -158,7 +150,7 @@ Setelah commit selesai:
 
 ## 1. Klik Tombol Sync / Push
 
-Biasanya muncul tombol:
+Biasanya tombol commit berubah menjadi tombol:
 
 ```txt
 Sync Changes
@@ -169,6 +161,7 @@ atau:
 ```txt
 Publish Branch
 ```
+![](https://i.imgur.com/WuZuSbT.png)
 
 Klik tombol tersebut.
 
@@ -182,7 +175,16 @@ ke GitHub.
 
 ---
 
-## 2. Tunggu Proses Selesai
+## 2. Pemberitahuan
+
+Jika ada pemberitahuan di bawah, klik "OK" atau "OK, Don't Show Again"
+
+![](https://i.imgur.com/87ZBChw.png)
+
+Opsi kedua "OK, Don't Show Again", digunakan ketika ingin agar pesan itu tidak muncul setelah "Sync Changes" atau "Publish Branch".
+
+---
+## 3. Tunggu Proses Selesai
 
 Jika berhasil:
 
