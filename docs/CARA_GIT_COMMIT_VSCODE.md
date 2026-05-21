@@ -256,4 +256,4 @@ update
 fix
 ```
 
-karena kurang jelas.
+Makin detail, makin baik
