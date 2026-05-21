@@ -5,6 +5,8 @@ import { Moon, Sun } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
+import webName from "@/data/web_name.json";
+
 const navItems = [
   { name: "Beranda", href: "/#beranda" },
   { name: "Jenis Sampah", href: "/#jenis-sampah" },
@@ -32,7 +34,7 @@ export default function AppNavbar() {
         
         {/* Logo */}
         <a href="/" className="text-2xl font-bold text-green-600 dark:text-green-700">
-          Pilah Sampah
+          {webName.nama_web}
         </a>
 
         {/* Dark Mode Button */}

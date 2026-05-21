@@ -1,12 +1,10 @@
 "use client";
 
-const latlong = {
-  lat: -7.653412,
-  long: 110.35202,
-};
+import info from "@/data/info.json";
+import location from "@/data/location.json"
 
 export default function TentangSection() {
-  const mapsUrl = `https://www.google.com/maps?q=${latlong.lat},${latlong.long}`;
+  const mapsUrl = `https://www.google.com/maps?q=${location.lat},${location.long}`;
 
   return (
     <section
@@ -54,15 +52,14 @@ export default function TentangSection() {
                 <span className="font-medium text-gray-800 dark:text-white">
                   Alamat:
                 </span>{" "}
-                Sidoharjo, Kendal, Bangun
-                Kerto, Turi, Sleman
+                {info.alamat}
               </p>
 
               <p>
                 <span className="font-medium text-gray-800 dark:text-white">
                   Kontak:
                 </span>{" "}
-                08xxxxxxxxxx
+                {info.telp} ({info.nama})
               </p>
             </div>
           </div>
@@ -71,7 +68,7 @@ export default function TentangSection() {
           <div className="w-full h-[300px] md:h-[350px]">
             <iframe
               className="w-full h-full rounded-xl shadow-md"
-              src={`https://www.google.com/maps?q=${latlong.lat},${latlong.long}&output=embed`}
+              src={`https://www.google.com/maps?q=${location.lat},${location.long}&output=embed`}
               loading="lazy"
             ></iframe>
 
