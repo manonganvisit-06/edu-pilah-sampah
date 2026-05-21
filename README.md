@@ -4,8 +4,6 @@
 
 Website Pilah Sampah merupakan platform edukasi berbasis web yang dibuat untuk memberikan pemahaman kepada masyarakat mengenai pentingnya memilah sampah sejak dari rumah. Website ini menyediakan informasi edukatif, panduan praktis, video pembelajaran, serta kalkulator sampah untuk meningkatkan kesadaran masyarakat terhadap pengelolaan sampah yang benar.
 
-Sumber: https://edu-pilah-sampah.vercel.app/  
-
 ---
 
 # Daftar Fitur
